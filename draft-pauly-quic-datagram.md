@@ -128,8 +128,8 @@ transport parameter. Endpoints MUST NOT send DATAGRAM frames of size strictly
 larger than the value of max_datagram_frame_size the endpoint has received from
 its peer. An endpoint that receives a DATAGRAM frame when it has not sent the
 max_datagram_frame_size transport parameter MUST terminate the connection with
-error PROTOCOL_VIOLATION. An endpoint that receives a DATAGRAM frame that is
-strictly larger than the value it sent in its max_datagram_frame_size
+error PROTOCOL_VIOLATION. An endpoint that receives a DATAGRAM frame that has
+payload strictly larger than the value it sent in its max_datagram_frame_size
 transport parameter MUST terminate the connection with error
 PROTOCOL_VIOLATION. Endpoints that wish to use DATAGRAM frames need to ensure
 they send a max_datagram_frame_size value sufficient to allow their peer to
