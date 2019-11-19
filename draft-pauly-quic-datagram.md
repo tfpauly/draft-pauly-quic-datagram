@@ -124,7 +124,7 @@ size of DATAGRAM payload the endpoint is willing to receive, in bytes. An
 endpoint that includes this parameter supports the DATAGRAM frame types and is
 willing to receive such frames on this connection. Endpoints MUST NOT send
 DATAGRAM frames until they have sent and received the max_datagram_frame_size
-transport parameter. Endpoints MUST NOT send DATAGRAM frames of size strictly
+transport parameter. Endpoints MUST NOT send DATAGRAM payloads of size strictly
 larger than the value of max_datagram_frame_size the endpoint has received from
 its peer. An endpoint that receives a DATAGRAM frame when it has not sent the
 max_datagram_frame_size transport parameter MUST terminate the connection with
