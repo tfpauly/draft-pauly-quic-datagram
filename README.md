@@ -1,3 +1,8 @@
+# IMPORTANT: Obsolete Draft
+
+This repository contains draft-pauly-quic-datagram which has now been replaced by draft-ietf-quic-datagram.
+[Please click here to go to the new repository.](https://github.com/quicwg/datagram)
+
 #  An Unreliable Datagram Extension to QUIC
 
 This is the working area for the Individual internet-draft, "An Unreliable Datagram Extension to QUIC".
